@@ -49,4 +49,4 @@ Distribution, embedding, and prepackaged JARs
 I would not recommend including Jeva seperately on the classpath; rather, I intend you to keep the Jeva source in the
 same JAR file as your actual application (w/o the example and possibly the tests, depending on how much modifiying
 of Jeva you'll be doing). Despite that, it is obviously possible to keep Jeva seperately on the classpath from your
-application.
+application. That way, the JAR is standalone. Again, there's nothing stopping you from building a seperate Jeva JAR.
