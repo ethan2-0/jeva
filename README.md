@@ -7,26 +7,26 @@ Jeva is a minimalist Java web framework that keeps REST in mind. It's intended t
 with Flask. What I didn't like about all of the existing Java web frameworks is the amount of complexity. By contrast,
 Jeva is designed to just be *simple*; to be natural. What I mean by natural is natural in the way Flask is natural:
 
-  from flask import Flask
-  app = Flask(__name__)
-  @app.route("/")
-  def serveRoot():
-    return "Hello world!"
-  app.run()
+    from flask import Flask
+    app = Flask(__name__)
+    @app.route("/")
+    def serveRoot():
+      return "Hello world!"
+    app.run()
 
 The equivalent Jeva code is:
 
-  import jeva.*;
-  public class Test {
-    public static void main(String[] args) throws IOException {
-      Jeva jeva = new Jeva(new Test());
-      jeva.run(8000);
+    import jeva.*;
+    public class Test {
+      public static void main(String[] args) throws IOException {
+        Jeva jeva = new Jeva(new Test());
+        jeva.run(8000);
+      }
+      @Serves(path="/")
+      public String serveRoot() {
+        return "Hello world!";
+      }
     }
-    @Serves(path="/")
-    public String serveRoot() {
-      return "Hello world!";
-    }
-  }
 
 In the same way that Flask just *works*, Jeva does the same.
 
