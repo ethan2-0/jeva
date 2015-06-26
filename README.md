@@ -35,9 +35,11 @@ Why not just Flask?
 For many applications, Flask is ideal. But, sometimes, you don't want Python; you want Java. That's where Jeva comes
 in. That's why I want Jeva to feel familiar; my goal was to lower the barrier to entry.
 
-Documentation
-=============
+Documentation and Examples
+==========================
 Javadoc is available in /javadoc or [here](https://ethan2-0.github.io/jeva_javadoc/).
+
+The example is in the package jeva.example.
 
 Getting the source
 ==================
