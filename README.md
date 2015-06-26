@@ -37,8 +37,7 @@ in. That's why I want Jeva to feel familiar; my goal was to lower the barrier to
 
 Documentation
 =============
-Javadoc will be available shortly. Do note that you really only need to look at JevaUtils, Request, Jeva, and some
-parts of JevaServer. The rest is just internal.
+Javadoc is available in /javadoc or [here](https://ethan2-0.github.io/jeva_javadoc/).
 
 Getting the source
 ==================
